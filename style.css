@@ -1,0 +1,22 @@
+body{ 
+    font-family: 'Roboto', sans-serif;
+    display: flex; 
+    flex-direction: column;
+} 
+
+.container{ 
+    background-color: rgba(0, 0, 255, 0.439); 
+    display: flex;
+}
+
+.quote{ 
+    background-color: rgba(128, 128, 128, 0.491);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.join{ 
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.253);
+}
