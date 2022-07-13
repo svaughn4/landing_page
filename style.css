@@ -32,6 +32,7 @@ ul{
     list-style: none;
     display: flex; 
     justify-content: space-evenly;
+    align-items: center;
     font-size: 12px; 
     text-align: center; 
     gap: 10px;
@@ -64,4 +65,9 @@ h1{
  
 button{ 
     width: 100px;
+} 
+
+li{ 
+    height: 300px;
+    width: 200px;
 }
