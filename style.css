@@ -43,8 +43,7 @@ button{
     flex-direction: column;
     align-items: center;
     padding: 0 200px;
-    padding-bottom: 70px;
-    background-color: aqua;
+    padding-bottom: 30px;
 } 
 
 .pics{ 
@@ -76,7 +75,17 @@ button{
 
 .join{
     color: white;
+    display: flex;
+    flex-direction: column;
 }
+
+span{ 
+    display: flex;
+    background-color: lightblue;
+    margin: 75px 150px; 
+    justify-content: space-between;
+    padding: 50px 100px;
+} 
 
 a{
     text-decoration: none;
@@ -87,4 +96,13 @@ ul{
     list-style: none; 
     display: flex;
     gap: 20px;
+} 
+
+#contact{ 
+    width:300px;
+}
+
+.footnote{
+    text-align: center;
+    padding: 25px;
 }
