@@ -13,12 +13,28 @@ body{
     flex-direction: column;
     padding: 0 150px;
     padding-bottom: 75px;
+    gap: 75px;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.info{ 
+    display: flex; 
+    gap: 50px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+}
+
+button{
+    width: 100px;
 }
 
 .quote{
