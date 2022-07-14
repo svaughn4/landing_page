@@ -106,3 +106,23 @@ ul{
     text-align: center;
     padding: 25px;
 }
+
+.aboutPics img{
+    width:400px;
+    height:auto;
+}
+
+#luanda, #usc{ 
+    margin:auto;
+}
+
+.second{ 
+    display: flex; 
+    gap: 50px; 
+    flex: 1 1 0;
+}
+
+.second img{ 
+    width:400px;
+    height: auto;
+}
