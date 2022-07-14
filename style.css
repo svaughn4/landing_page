@@ -15,6 +15,11 @@ body{
     padding-bottom: 75px;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+}
+
 .quote{
     background-color: lightgray;
 }
@@ -30,4 +35,9 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+ul{
+    list-style: none; 
+    display: flex;
 }
