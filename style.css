@@ -6,3 +6,19 @@ body{
     align-items: center;
 } 
 
+.container{
+    background-color: darkblue;
+    color: white;
+}
+
+.quote{
+    background-color: lightgray;
+}
+
+.footnote{ 
+    background-color: darkblue;
+}
+
+.join{
+    color: white;
+}
